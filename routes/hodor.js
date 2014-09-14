@@ -62,7 +62,7 @@ router.get('/number/:number', function(req, res) {
 router.get('/question/:question', function(req, res) {
     var message = '';
 
-    var number = Math.floor((Math.random() * 10) + 1);
+    var number = Math.floor((Math.random() * 5) + 1);
 
     for (i = 0; i < number; i++ ) {
         message += 'Hodor, ';

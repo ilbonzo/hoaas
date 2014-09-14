@@ -33,6 +33,16 @@ p Will return content of right Hodor answer for your question.
 - http://hoaas.herokuapp.com
 
 
+## Thanks
+
 ![Hodor](https://github.com/ilbonzo/hoaas/raw/master/public/images/1-hodor.jpg "Hodor")
 
-All contributions are very welcome.
+__All contributions are very welcome.__
+
+Not Written in a [Express](http://expressjs.com/)
+
+Not Inspired to [FOAAS (Fuck Off As A Service)](http://foaas.com/)
+
+Fork me on [github](https://github.com/ilbonzo/hoaas)
+
+Created by [@ilbonzo](https://twitter.com/ilbonzo)
