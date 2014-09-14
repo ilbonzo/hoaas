@@ -4,9 +4,9 @@ hoaas
 v0.0.1
 
 HOAAS HOAAS (HOdor As A Service) provides a modern, RESTful, scalable solution to the common problem of talk with Hodor
+
 ![Hodor](https://github.com/ilbonzo/hoaas/raw/master/public/images/talk-hodor.gif "Hodor")
 
-img(src="/images/talk-hodor.gif")
 
 # Content Negotiation
 
