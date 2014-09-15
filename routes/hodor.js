@@ -61,17 +61,17 @@ router.get('/number/:number', function(req, res) {
 
 router.get('/question/:question', function(req, res) {
     var message = '';
-
+    var finalPoints = ['!', '.', '?', ' '];
+    // we want most space or comma
+    var points = ['!', '.', '?', ' ', ' ', ' ', ' ', ';', ':', ',', ','];
     var number = Math.floor((Math.random() * 5) + 1);
 
     for (i = 0; i < number; i++ ) {
-        message += 'Hodor, ';
+        message += 'Hodor' + points[Math.floor(Math.random() * points.length)] + ' ';
     }
     message = message.slice(0, -2);
 
-    var points = ['!', '.', '?', ' '];
-    var point = points[Math.floor(Math.random() * points.length)];
-
+    var point = finalPoints[Math.floor(Math.random() * finalPoints.length)];
     message = message + point;
 
     res.format({
