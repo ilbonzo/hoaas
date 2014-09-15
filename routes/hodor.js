@@ -80,7 +80,7 @@ router.get('/question/:question', function(req, res) {
         },
 
         'text/html': function(){
-            res.render('Hodor',{ 'message': message });
+            res.render('hodor',{ 'message': message });
         },
 
         'application/json': function(){
