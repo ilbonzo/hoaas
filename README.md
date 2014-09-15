@@ -22,7 +22,7 @@ HOAAS will respond to the following 'Accept:' values with appropriate content
 
 Will return content of the form 'Hodor' with or without different final dot.
 
-## /hodor/:number
+## /hodor/number/:number
 Will return content of the form 'Hodor, Hodor' for :number times with or without different final dot.
 
 ## /hodor/question/:question
