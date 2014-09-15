@@ -26,7 +26,7 @@ Will return content of the form 'Hodor' with or without different final dot.
 Will return content of the form 'Hodor, Hodor' for :number times with or without different final dot.
 
 ## /hodor/question/:question
-p Will return content of right Hodor answer for your question.
+Will return content of right Hodor answer for your question.
 
 # Alternative URLs
 
